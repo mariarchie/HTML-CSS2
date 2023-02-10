@@ -67,7 +67,16 @@ a {
     height: 17px;
     font-family: 'Gilroy-SemiBold';
     font-size: 14px;
-    line-height: 16px;  
+    line-height: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_link {
+    color: #000000;
+}
+
+.header_link1 {
     color: #F25822;
 }
 
