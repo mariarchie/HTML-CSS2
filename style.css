@@ -35,7 +35,8 @@
 
 
 body {
-
+    width: 1920px;
+    height: 700px;
     background: #FFFFFF;
     font-family: 'Gilroy-Bold';
 }
@@ -49,7 +50,8 @@ body {
     margin-top: 40px;
     margin-bottom: 84px;
     display: flex;
-    justify-content: space-between;
+    gap: 500px;
+    justify-content: center;
     align-items: center;
 }
 
@@ -84,7 +86,7 @@ a {
     display: flex;
     margin-bottom: 162px;
     gap: 39px;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -94,8 +96,7 @@ a {
 }
 
 .title {
-    margin-top: 97px;
-    margin-bottom: 96px;
+    margin-bottom: 17px;
     width: 522px;
     height: 222px;
     font-family: 'Gilroy-Bold';
@@ -151,12 +152,11 @@ a {
 }
 
 .top_logo {
-    width: 1200px;
-    height: 50px;
     display: flex;
     padding-top: 97px;
     padding-bottom: 96px;
     gap: 48px;
+    justify-content: center;
 }
 
 .bottom_logos {
