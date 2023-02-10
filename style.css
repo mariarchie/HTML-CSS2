@@ -33,9 +33,9 @@
 		url('/fonts/gilroy-semibold.svg#gilroy-semibold') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
+
 body {
-    width: 1920px;
-    height: 700px;
+
     background: #FFFFFF;
     font-family: 'Gilroy-Bold';
 }
@@ -48,6 +48,14 @@ body {
 .header {
     margin-top: 40px;
     margin-bottom: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_links {
+    width: 137px;
+    height: 40px;
 }
 
 a {
@@ -55,6 +63,8 @@ a {
 }
 
 .header_menu {
+    width: 533px;
+    height: 17px;
     font-family: 'Gilroy-SemiBold';
     font-size: 14px;
     line-height: 16px;  
@@ -62,25 +72,51 @@ a {
 }
 
 .top_content {
+    display: flex;
     margin-bottom: 162px;
+    gap: 39px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.big_img {
+    width: 610.73px;
+    height: 372.9px;
 }
 
 .title {
     margin-top: 97px;
     margin-bottom: 96px;
+    width: 522px;
+    height: 222px;
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
 }
 
 .top_info {
     margin-bottom: 17px;
+    width: 522px;
+    height: 374px;
 }
 
 .text {
+    width: 466px;
+    height: 48px;
     font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
 }
 
 .top_buttons {
     width: 302px;
+    display: flex;
     height: 50px;
+    gap: 72px;
+    align-items: baseline;
+    padding-top: 37px;
 }
 
 .button1 {  
@@ -106,6 +142,15 @@ a {
 }
 
 .top_logo {
+    width: 1200px;
+    height: 50px;
+    display: flex;
     padding-top: 97px;
     padding-bottom: 96px;
+    gap: 48px;
+}
+
+.bottom_logos {
+    width: 160px;
+    height: 50px;
 }
