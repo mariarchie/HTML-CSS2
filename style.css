@@ -35,15 +35,13 @@
 
 
 body {
-    width: 1920px;
-    height: 943px;
     background: #FFFFFF;
     font-family: 'Gilroy-Bold';
 }
 
 .center {
-    padding-left: calc(50% - 960px);
-    padding-right: calc(50% - 960px);
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
 }
 
 .header {
