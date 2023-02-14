@@ -3,45 +3,14 @@
     padding: 0;
 }
 
-@font-face {
-	font-family: 'Gilroy-Bold';
-	src: url('/fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
-	src: url('/fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('/fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
-		url('/fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('/fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('/fonts/gilroy-bold.svg#gilroy-bold') format('svg'); /* Chrome < 4, Legacy iOS */
-}
-
-@font-face {
-	font-family: 'Gilroy-Medium';
-	src: url('/fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
-	src: url('/fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('/fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
-		url('/fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('/fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('/fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
-}
-
-@font-face {
-	font-family: 'Gilroy-SemiBold';
-	src: url('/fonts/gilroy-semibold.eot'); /* IE 9 Compatibility Mode */ 
-	src: url('/fonts/gilroy-semibold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('/fonts/gilroy-semibold.woff2') format('woff2'), /* Super Modern Browsers */
-		url('/fonts/gilroy-semibold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('/fonts/gilroy-semibold.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('/fonts/gilroy-semibold.svg#gilroy-semibold') format('svg'); /* Chrome < 4, Legacy iOS */
-}
-
-
 body {
     background: #FFFFFF;
-    font-family: 'Gilroy-Bold';
+    font-family: 'Urbanist', Arial;
 }
 
 .center {
-    padding-left: calc(50% - 585px);
-    padding-right: calc(50% - 585px);
+    padding-left: calc(50% - 586px);
+    padding-right: calc(50% - 586px);
 }
 
 .header {
@@ -65,7 +34,6 @@ a {
 .header_menu {
     width: 533px;
     height: 17px;
-    font-family: 'Gilroy-SemiBold';
     font-size: 14px;
     line-height: 16px;
     display: flex;
@@ -97,7 +65,6 @@ a {
     margin-bottom: 17px;
     width: 522px;
     height: 222px;
-    font-family: 'Gilroy-Bold';
     font-size: 60px;
     line-height: 70px;
     color: #000000;
@@ -112,7 +79,6 @@ a {
 .text {
     width: 466px;
     height: 48px;
-    font-family: 'Gilroy-Medium';
     font-size: 20px;
     line-height: 23px;
     color: #888888;
@@ -130,7 +96,6 @@ a {
 .button1 {  
     width: 69px;
     height: 19px;
-    font-family: 'Gilroy-Bold';
     font-size: 15px;
     line-height: 18px;color: #FFFFFF;
     width: 140px;
@@ -143,7 +108,6 @@ a {
 .button2 {
     width: 90px;
     height: 19px;
-    font-family: 'Gilroy-Bold';
     font-size: 15px;
     line-height: 18px;
     color: #AAAAAA;
